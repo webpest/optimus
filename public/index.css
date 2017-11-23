@@ -1,0 +1,33 @@
+td.leftAlign,
+th.leftAlign {
+  text-align: left !important;
+}
+
+td.rightAlign,
+th.rightAlign {
+  text-align: right !important;
+}
+.actionColumn {
+  width: 160px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 30px);
+  border: 0;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  line-height: 20px;
+  background-color: #ca9c00;
+  color: #fff;
+  z-index: 1000;
+}
+
+.rowTitle {
+  font-weight: bold;
+}
+.companyTable tr {
+  border: 1px solid #666;
+}
